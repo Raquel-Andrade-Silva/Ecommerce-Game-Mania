@@ -1,0 +1,597 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 7px 73.5px;
+    max-width: 1400px;
+}
+
+.logo img {
+    width: 25%;
+    height: 25%;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    height: 160%;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 7px 73.5px;
+    max-width: 1400px;
+}
+
+.cabecalho img {
+    width: 65px;
+    height: 65px;
+    align-items: center;
+}
+
+.search-box {
+    position: fixed;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 35px;
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border:none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 17px;
+    line-height: 40px;
+    width: 0;
+    transition: 0.5s;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.search-bnt {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.search-box:hover > .search-txt {
+    width: 100px;
+    padding: 0 6px;
+}
+
+.menu ul {
+    background-color: rgba(34, 34, 34, 1);
+    list-style: none;
+    margin: 15px;
+    margin-block-end: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 7px 73.5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+}
+
+.banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner img {
+    width: 1425px;
+    height: 445px;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+.destaque {
+    height: 100px;
+    margin: 0 auto;
+}
+
+.espacamento-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    max-width: 900px;
+}
+
+.cardnews {
+    width: 9.4em;
+    height: 16em;
+    background: white;
+    color: #fff;
+}
+
+.cardnews a {
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14.4px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardnews h1 {
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.cardnews h3 {
+    color: black;
+    font-size: 20px;
+}
+
+.cardnews h5 {
+    color: black;
+    font-size: 13px;
+}
+
+.texto-produto {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.posicionamento-jogos {
+    height: 100%;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.posicionamento-jogos img {
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+
+.card-ofert {
+    padding: 70px 100px;
+    display: flex;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-ofert h1 {
+    color: white;
+}
+
+.footer {
+    background-color: rgba(34, 34, 34, 1);
+    max-width: 1500px;
+}
+
+.rodape {
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes {
+    position: relative;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.informacoes h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+}
+
+.informacoes h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13.5px;
+}
+
+.informacoes h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13.5px;
+}
+
+.informacoes a {
+    text-decoration: none;
+}
+
+.informacoes h2:hover {
+    background-color: black;
+}
+
+.acess {
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient( rgb(0, 119, 255), black)
+}
+
+.acess h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.acess section {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.acess input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.acess button {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.acess button:hover {
+    background-color: rgb(17, 160, 226);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+   /* Tablets */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .body {
+       margin: 0;
+       padding: 0;
+    }
+    
+    .cabecalho {
+       max-width: 100%;
+    }
+
+    .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 7px 73.5px;
+    max-width: 100%;
+    }
+
+    .logo img {
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    }
+
+    .menu ul li a {
+        max-width: 100%;
+        display: inline-block;
+        padding: 2px 9px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .banner {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .banner img {
+        max-width: 100%;
+        width: 100%;
+        height: 399px;
+        align-items: center;
+    }
+
+    .espacamento-produtos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        max-width: 100%;
+        padding: 5px 50px;
+    }
+
+    .cardnews {
+        width: 9em;
+        height: 12em;
+        background: white;
+        color: #fff;
+    }
+
+    .cardnews img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cardnews a {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .cardnews h1 {
+        font-size: 21px;
+        margin: 5px;
+    }
+
+    .cardnews h3 {
+        font-size: 18px;
+    }
+
+    .cardnews h5 {
+        font-size: 12px;
+    }
+
+    .posicionamento-jogos {
+        max-width: 690px;
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .posicionamento-jogos img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .card-ofert {
+        max-width: 100%;
+        display: inline-block;
+        font-size: 9px;
+        padding: 50px 200px;
+    }
+
+    .informacoes {
+        position: relative;
+        width: 250px;
+        justify-content: space-between;
+        display: inline-block;
+    }
+
+    .rodape {
+        padding: 100px 100px;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: auto;
+        display: inline-block;
+        background-color: rgba(34, 34, 34, 1);
+        max-width: 100%;
+        padding: 20px 150px;
+    }
+    
+}
+
+   /* Smartphones */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .body {
+       margin: 0;
+       padding: 0;
+    }
+    
+    .cabecalho {
+       max-width: 100%
+    }
+
+    .cabecalho img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    }
+
+    .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 7px 73.5px;
+    max-width: 100%;
+    }
+
+    .logo img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    }
+
+    .menu ul li a {
+        max-width: auto;
+        display: inline-block;
+        padding: 2px 5px;
+        font-size: 15.7px;
+        text-align: center;
+    }
+
+    .banner {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .banner img {
+        max-width: auto;
+        width: 100%;
+        height: 200px;
+        align-items: center;
+    }
+
+    .espacamento-produtos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        max-width: 450px;
+        padding: 5px 50px;
+    }
+
+    .cardnews {
+        width: 8em;
+        height: 11em;
+        background: white;
+        color: #fff;
+    }
+
+    .cardnews img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cardnews a {
+       width: 90%;
+       font-size: 10px;
+    }
+
+    .cardnews h1 {
+       font-size: 18px;
+       margin: 5px;
+    }
+
+    .cardnews h3 {
+       font-size: 15px;
+    }
+
+    .cardnews h5 {
+       font-size: 9px;
+    }
+
+
+    .posicionamento-jogos {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .posicionamento-jogos img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .card-ofert {
+        padding: 50px 100px;
+        display: inline-block;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .informacoes {
+        position: relative;
+        width: 200px;
+        justify-content: space-between;
+        display: inline-block;
+    }
+
+    .rodape {
+        padding: 100px 100px;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: auto;
+        display: inline-block;
+        background-color: rgba(34, 34, 34, 1);
+        max-width: 100%;
+        padding: 20px 150px;
+    }
+}
+
+ 
+
